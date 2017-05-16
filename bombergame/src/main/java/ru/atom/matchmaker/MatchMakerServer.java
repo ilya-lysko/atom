@@ -48,18 +48,6 @@ public class MatchMakerServer {
         }
     }
 
-    private static ContextHandler createResourceContext() {
-        ContextHandler context = new ContextHandler();
-        context.setContextPath("/gs/0");
-        ResourceHandler handler = new ResourceHandler();
-        handler.setWelcomeFiles(new String[]{"index.html"});
-
-        String serverRoot = MatchMakerServer.class.getResource("").toString();
-        handler.setResourceBase(serverRoot);
-        context.setHandler(handler);
-        return context;
-    }
-
     public static void main(String[] args) throws Exception {
         MatchMakerServer.start(false);
         Thread matchMakerService = new Thread(new MatchMaker());
