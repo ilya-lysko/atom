@@ -20,7 +20,7 @@ public class MatchMakerServer {
 
         jerseyServlet.setInitParameter(
                 "jersey.config.server.provider.packages",
-                "ru.atom.jersey.mm"
+                "ru.atom.jersey.matchmaker"
         );
 
         jettyServer.start();

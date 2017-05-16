@@ -1,0 +1,1681 @@
+[33mcommit 6911554c284c40ea4e7bfae87ee0a108188c483d[m
+Merge: 1c4d6fd eed53e6
+Author: Ilya Lysko <ilya.lysko@gmail.com>
+Date:   Thu Apr 27 00:08:15 2017 +0300
+
+    Merge branch 'lecture10' of https://github.com/ilya-lysko/atom into lecture10
+
+[33mcommit 1c4d6fd0698cec6297f73db0a832b196f400d2b9[m
+Author: Ilya Lysko <ilya.lysko@gmail.com>
+Date:   Thu Apr 27 00:05:44 2017 +0300
+
+    BlockingQueue implementation from lecture10 and tests for it. Lysko Ilya.
+
+[33mcommit 7b5dd797a12ee12eacad8164fb3ce137ebacddb8[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 26 17:57:48 2017 +0300
+
+    lecture10
+
+[33mcommit 3218d9baea8c92b1eb315077b8eaf83dbfa085ea[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 26 17:53:30 2017 +0300
+
+    lecture10
+
+[33mcommit 5da7c06e0a473497e59ef926174f790aad4a4739[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 26 17:43:05 2017 +0300
+
+    lecture10
+
+[33mcommit 9191c7f9e22b3f0b9c9bff86dd8dd17d0c2abc14[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Apr 26 16:56:03 2017 +0300
+
+    BlockingQueue + pingpong
+
+[33mcommit dea3825598e341d2ab4fb4ee9e91a160b0342d40[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 26 14:08:33 2017 +0300
+
+    lecture10
+
+[33mcommit 64671b1f948e235ee6917a5da0d9b528c31ec2c7[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Tue Apr 25 21:05:03 2017 +0300
+
+    lecture10
+
+[33mcommit b9c9211ac1c5394f495dc7f19ac255a9738ae5de[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Apr 25 01:37:32 2017 +0300
+
+    settings.gradle
+
+[33mcommit 51e57b05eb8b0e55dc0904427167f509b7c66a50[m
+Merge: 3c372d8 e31418e
+Author: Alexander <Alpieex@gmail.com>
+Date:   Tue Apr 25 01:34:45 2017 +0300
+
+    Merge pull request #444 from rybalkinsd/lecture09
+    
+    Lecture09
+
+[33mcommit e31418e2db35457e7026c84b48a0d8da98338aac[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sat Apr 22 12:08:55 2017 +0300
+
+    lecture09
+
+[33mcommit 3c372d8b6b236815c01996656b9d91fb22a10aba[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sat Apr 22 01:37:26 2017 +0300
+
+    lecture7 remove
+
+[33mcommit 1b7cddbe7857f3a0ba313ca2d2abeccbd9bdd5b2[m
+Merge: 731607d ee8200a
+Author: Alexander <Alpieex@gmail.com>
+Date:   Sat Apr 22 01:34:15 2017 +0300
+
+    Merge pull request #441 from rybalkinsd/lecture08
+    
+    lecture08
+
+[33mcommit ee8200ae78785fcc15e01fea0743dd99a82cd860[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 19 01:24:27 2017 +0300
+
+    lecture08
+
+[33mcommit 731607d146a7ac2535f10432e33485a31cd8efb9[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Apr 19 15:47:44 2017 +0300
+
+    final project structure
+
+[33mcommit 4befa544c593a53cecc4d474d1affddb7d1a0063[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 19 01:27:16 2017 +0300
+
+    settings.gradle includes everything
+
+[33mcommit 9cf36b2ae52764dfe0576d14911d0b03eec95363[m
+Merge: 61aa54b bfeac6e
+Author: Alexander <Alpieex@gmail.com>
+Date:   Wed Apr 19 00:25:26 2017 +0300
+
+    Merge pull request #431 from rybalkinsd/db_hackaton
+    
+    Db hackaton
+
+[33mcommit bfeac6e7f3c339f3732db805d4ef1ea9f716485c[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 19 00:22:00 2017 +0300
+
+    db_hackaton fixes
+
+[33mcommit 61aa54ba91cf92e80006615cc6bfdfdc3a3bbd3c[m
+Merge: 580a7d6 c6fa162
+Author: Alexander <Alpieex@gmail.com>
+Date:   Mon Apr 17 00:16:51 2017 +0300
+
+    Merge pull request #429 from Auerbah/patch-2
+    
+    Update PITCHME.md
+
+[33mcommit c6fa162ad8397b7c6201e146aebcb234e1dca94c[m
+Author: Alexey Kvasnyy <robingoodinvevo@gmail.com>
+Date:   Mon Apr 17 00:13:21 2017 +0300
+
+    Update PITCHME.md
+
+[33mcommit 2eced481592113b69b25f51685f05e76d47e7763[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Apr 12 12:25:10 2017 +0300
+
+    db hackaton initial
+
+[33mcommit 580a7d6585afe34af1b6329a943263b9c9b0eaa3[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 5 17:55:20 2017 +0300
+
+    lecture07
+
+[33mcommit 15a6c560a46541e6ddc6a6b173dd6490064765b2[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 5 17:47:01 2017 +0300
+
+    lecture07
+
+[33mcommit 2e42d5d286c54744a53d99bcf4c347b8beb55f1f[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 5 17:43:44 2017 +0300
+
+    lecture07
+
+[33mcommit f1077f8e391760f0b691f082da0a71e7bd6c24a5[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 5 17:38:44 2017 +0300
+
+    lecture07
+
+[33mcommit 0d7eb1ba9c4f5aca336b63113ca3956e07457d78[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Apr 5 17:36:32 2017 +0300
+
+    lecture07
+
+[33mcommit 4cfd6e4f9d97b06173d1ab557f9d1e3f826fc7c1[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Fri Mar 31 01:58:16 2017 +0300
+
+    lecture07
+
+[33mcommit 27107a3eb27b69e5efdd257ea231f0aeafcb723d[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sat Apr 1 02:02:39 2017 +0300
+
+    lecture06 test ignore
+
+[33mcommit 25a0693eebe4ac1b757608c12e56604ea4ca8ca3[m
+Merge: c1779e7 e1e0099
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Mar 31 01:18:37 2017 +0300
+
+    Merge pull request #357 from rybalkinsd/web_hackaton
+    
+    Web hackaton
+
+[33mcommit e1e00993910d8e654b188351af41f547912606f6[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sun Mar 19 15:41:02 2017 +0300
+
+    web hackaton
+
+[33mcommit c1779e7ceec9f622b3213bfc9a2985a6c9e5c272[m
+Merge: f4ade2b 14358cf
+Author: Alexander <Alpieex@gmail.com>
+Date:   Wed Mar 29 23:03:03 2017 +0300
+
+    Merge pull request #408 from rybalkinsd/lecture06
+    
+    Lecture06
+
+[33mcommit 14358cfb04bd26258ef0c732d985c0ecfa308960[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Sat Mar 25 01:13:10 2017 +0300
+
+    lecture06
+
+[33mcommit f4ade2ba39ea67fcf45e4e07fd6668f47854fb1e[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Tue Mar 21 23:56:20 2017 +0300
+
+    minor rk1 fixes
+
+[33mcommit 7a31d4a3fa63bf1faa8e9b548d5a271377b56d9d[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Mar 21 22:58:37 2017 +0300
+
+    Условие рк#1
+
+[33mcommit 0a0da8247341dd0892213cd9c1281bcca55dc5f0[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Tue Mar 21 10:57:20 2017 +0300
+
+    Поправил описание дз
+
+[33mcommit dc02d01f0b0b799fad28d358bed83bead7125e76[m
+Merge: 12d815c 3496a1f
+Author: Alexander <Alpieex@gmail.com>
+Date:   Tue Mar 21 02:01:07 2017 +0300
+
+    Merge pull request #336 from rybalkinsd/rk01
+    
+    rk01
+
+[33mcommit 3496a1f3ae057b7855856615116612b03e36c18d[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Mar 21 01:44:22 2017 +0300
+
+    rk01
+
+[33mcommit 12d815c5ba0440712e5655354e8968b83822dead[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Mar 15 17:40:38 2017 +0300
+
+    lecture05 sources, presentation and practice
+
+[33mcommit 34ad7a8a1aefd55c8a89056c81510b16ceb6e7f4[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Tue Mar 14 18:48:04 2017 +0300
+
+    lecture 05 initial
+
+[33mcommit 9027e5b378dd793a5096b4aafbf9920ae9ed93e0[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Mar 14 14:00:06 2017 +0300
+
+    Lecture04 (#287)
+    
+    * lecture4 presentation
+    * lecture4 sources
+    * Abstract Cache
+    * jar in lecture04
+
+[33mcommit 068cd4c1ff88fe9f06b3051026b8cb249c81186b[m
+Merge: 4696d60 354e59d
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Mar 10 14:26:21 2017 +0300
+
+    Merge pull request #172 from rybalkinsd/lecture03
+    
+    Lecture03
+
+[33mcommit 354e59d14c8207f1a4977555c3526c00fb22514d[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Sat Mar 4 14:56:47 2017 +0300
+
+    checkstyle impr
+
+[33mcommit 08534040a303ed0f9a71cfd118333ab3568b65cf[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Sat Mar 4 14:56:18 2017 +0300
+
+    checkstyle impr
+
+[33mcommit db26183281ed165be1090430c6e0dc7e2f75289d[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Sat Mar 4 14:54:26 2017 +0300
+
+    lecture03 presentation
+
+[33mcommit 5ce2aa5bff00c6106fab372717e6e2756b621e49[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Fri Mar 3 16:52:18 2017 +0300
+
+    lecture03 initial
+
+[33mcommit 4696d60009a26e99aa07c8c6dde7ba48750bb8d8[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Fri Mar 3 15:51:46 2017 +0300
+
+    slide numbers
+
+[33mcommit a3681458d0372c67fefa05d906449b2c17a6d2ec[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Fri Mar 3 15:50:21 2017 +0300
+
+    slide numbers
+
+[33mcommit f75ad7645150e1e4183492fa2b86b645ed8ac6f2[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Fri Mar 3 15:48:02 2017 +0300
+
+    Update PITCHME.yaml
+
+[33mcommit bd0f6270abdb71a3dc5f50bc3df4870c286e074e[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Fri Mar 3 13:56:49 2017 +0300
+
+    ingore for /gradle
+
+[33mcommit c175bd11b95d6bec3e434afd3c22c02892654789[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Mar 2 14:56:49 2017 +0300
+
+    Update README.md
+
+[33mcommit 2836a6814c16fbe8e5b50662007bbd11d6e4aced[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Mar 2 11:08:53 2017 +0300
+
+    Update README.md
+
+[33mcommit 155da4dae04b4d7e51f2c81ff927b1d25a7420d2[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Mar 2 10:37:59 2017 +0300
+
+    fixed jacoco test report
+
+[33mcommit 40b8c375f8ef78c86a5c5a47e5ab80d7cd56c924[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Mar 2 10:23:09 2017 +0300
+
+    lecture02 presentation fixes
+
+[33mcommit e44dc03d537633070f5438c0a00964ab1e96d7bd[m
+Merge: 479ab4d 8a5dea0
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Wed Mar 1 15:58:12 2017 +0300
+
+    Merge pull request #129 from rybalkinsd/lecture02
+    
+    Lecture02
+
+[33mcommit 8a5dea09f40387b841e91aebe22c5af4c7c4f9c8[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Mar 1 15:43:28 2017 +0300
+
+    lecture02 presentation & source
+
+[33mcommit 5089683e57bcde091ac67e393df6fe577189614f[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Mon Feb 27 15:48:34 2017 +0300
+
+    lecture 02 presentation initial
+
+[33mcommit 479ab4d9d53cf258ff56bd59c1c08917cd4ecc3c[m
+Merge: 06811fd c8c88e5
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Feb 24 10:16:04 2017 +0300
+
+    Merge pull request #56 from IGIntellectual/patch-1
+    
+    Update PITCHME.md
+
+[33mcommit c8c88e5dba723d4fbe67a8ec69df54cbe9028295[m
+Author: Igor Noskov <nio001@campus.mephi.ru>
+Date:   Fri Feb 24 02:36:56 2017 +0300
+
+    Update PITCHME.md
+
+[33mcommit 2aac3d5944276ee147b1a600cc1ce361819872ee[m
+Author: Igor Noskov <nio001@campus.mephi.ru>
+Date:   Fri Feb 24 02:33:42 2017 +0300
+
+    Update PITCHME.md
+
+[33mcommit 915c159560cd3c6f01e17f2e428313f5352a0d15[m
+Author: Igor Noskov <nio001@campus.mephi.ru>
+Date:   Fri Feb 24 02:33:09 2017 +0300
+
+    Update PITCHME.md
+
+[33mcommit dab0d6588ecbb000d61799a5aca20584e235fee4[m
+Author: Igor Noskov <nio001@campus.mephi.ru>
+Date:   Fri Feb 24 02:32:53 2017 +0300
+
+    Update PITCHME.md
+
+[33mcommit 06811fde6fa32a3cc3734686b63ee37985643b8f[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 23:35:01 2017 +0300
+
+    lecture 1
+
+[33mcommit 256b1eed40260ca459e9e31adeae4292ee50a143[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 23:33:20 2017 +0300
+
+    lecture 1
+
+[33mcommit 0d34c406f7075abfbb1c618d906ae9060fa0eec4[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 23:31:40 2017 +0300
+
+    lecture 1
+
+[33mcommit b1da92529133abdae891b4cd48382cba10c730b2[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 18:42:42 2017 +0300
+
+    lecture 1
+
+[33mcommit d26d9aa4dafb50d379889dac926e9451f0d37eb1[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 18:35:46 2017 +0300
+
+    lecture 1
+
+[33mcommit 2880b51197e0e803b3df15b150b9bac1720c9b0c[m
+Author: Igor Noskov <nio001@campus.mephi.ru>
+Date:   Thu Feb 23 18:07:30 2017 +0300
+
+    Update PITCHME.md
+
+[33mcommit b28d43714831c0d7c6671dc5c85e09ee16c2b94c[m
+Author: Igor Noskov <nio001@campus.mephi.ru>
+Date:   Thu Feb 23 16:18:23 2017 +0300
+
+    Update PITCHME.md
+
+[33mcommit c7709715c838f43a3e05db693df98f401d92c3c1[m
+Author: Igor Noskov <nio001@campus.mephi.ru>
+Date:   Thu Feb 23 16:10:59 2017 +0300
+
+    Update PITCHME.md
+
+[33mcommit 35659308132375816ba01f6d0c502691bc9b4c4c[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 15:19:47 2017 +0300
+
+    lecture 1
+
+[33mcommit 1c04efceb5a43d8eed6bff8a3fadbb99037ec6de[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 13:53:33 2017 +0300
+
+    lecture 1
+
+[33mcommit 21130290c5ce0f9e31b1639ac44205752d17575e[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 13:42:49 2017 +0300
+
+    lecture 1
+
+[33mcommit 22a0f91a87698dd2cac991910b096fa295dff17a[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 13:33:18 2017 +0300
+
+    lecture 1
+
+[33mcommit 8a9c612cc13dae98715a6b538a9da421dc997779[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Feb 23 13:26:32 2017 +0300
+
+    lecture 1
+
+[33mcommit 17c2591aa8e22158c6928d2e7a56d3d2b529c4f3[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Wed Feb 22 17:23:53 2017 +0300
+
+    lecture 1
+
+[33mcommit 60b8119ef1328c69a7952480233f5898e37f50f5[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 16:36:27 2017 +0300
+
+    presentation fix
+
+[33mcommit bc0c0c684d912e9e4ceaefa2cc4563dc7b9ebf82[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 16:28:53 2017 +0300
+
+    pewsentations fix
+
+[33mcommit 0d8bfa3579c12f1e445386d99c92b5bc83ccb1da[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 16:16:47 2017 +0300
+
+    presentation fix
+
+[33mcommit 798cce2b42eb856845b17e70ec7e8359a5d24349[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 16:10:34 2017 +0300
+
+    presentation fix
+
+[33mcommit 3ca849d6f43d44c86081923098415731032ba7b4[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 16:07:26 2017 +0300
+
+    presentation fix
+
+[33mcommit 23949a87fa8f4e7a6af892841032fda3f3caa55d[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 16:03:07 2017 +0300
+
+    presentation fix
+
+[33mcommit f28a05f32e0247deec2c280a353183fc76cf642e[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 16:01:22 2017 +0300
+
+    presentation fix
+
+[33mcommit 35e643c9c10f87c4a1bdce78f18e3ea93d3725bd[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 15:59:16 2017 +0300
+
+    presentation fix
+
+[33mcommit d997dbed050fdc077df4cb3bf4e1d88b8e7cc1bd[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 15:57:15 2017 +0300
+
+    presentation fix
+
+[33mcommit 424a9ae3ad2c8bc6b1e82d08ef728366ca480e83[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 15:51:40 2017 +0300
+
+    presentation fix
+
+[33mcommit e6dd1ffdd5cca488acab0f442459ecd73c337008[m
+Author: apomosov <a.pomosov@hh.ru>
+Date:   Wed Feb 22 15:40:24 2017 +0300
+
+    Presentation: add ref to HW1 branch
+
+[33mcommit af6f2c4b7aa25ee0b094ef9cf20feddba0a779c9[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Feb 21 04:03:24 2017 +0300
+
+    lecture 1
+
+[33mcommit d020daf964cde935461d5c7407eb48f8f7be25c9[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Sun Feb 19 17:39:14 2017 +0300
+
+    lecture01 homework assignment
+
+[33mcommit 391da5fef53b4abc89d950ae0e7c8e68ebbf9f20[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sun Feb 19 12:33:20 2017 +0300
+
+    lecture 1
+
+[33mcommit bc27689c4b1ab83333e7c339885679e598a442ed[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Feb 22 10:09:08 2017 +0300
+
+    production checkstyle
+
+[33mcommit 82cbc2af93a8f2932a1575979c265c762f739678[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Feb 22 08:59:32 2017 +0300
+
+    cleanup
+
+[33mcommit 26206e446a67f0058379238bc054cd6c4029bed5[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Feb 21 14:12:55 2017 +0300
+
+    Update README.md
+
+[33mcommit 11c09864eb70a89c2a9927c9dc70e30be3bef19e[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Fri Feb 10 15:30:32 2017 +0300
+
+    Create LICENCE
+
+[33mcommit 94860e096c8bff327ec06b48ebcc621484a2c8be[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Wed Feb 1 19:20:25 2017 +0300
+
+    telegram link
+
+[33mcommit d5d96943fb7ced508abac92c3a345295212ae61a[m
+Merge: ec74c8f 878e7d2
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Wed Feb 1 16:51:17 2017 +0300
+
+    Merge pull request #40 from rybalkinsd/feature/checkstyle
+    
+    Feature/checkstyle
+
+[33mcommit 878e7d20aa593d5a7b27b5cc2bf84176ac332787[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Feb 1 16:46:57 2017 +0300
+
+    tmp off checks
+
+[33mcommit bcc463529a5ed78f7b3e3441ac3fb0b90853edd2[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Feb 1 16:44:00 2017 +0300
+
+    checkstyle in root project
+
+[33mcommit 2b359c2b6a2d01bcf73f610de368eddf49901789[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Feb 1 12:51:36 2017 +0300
+
+    checkstyle integration
+
+[33mcommit ec74c8f90cd2c0ab6f7019ebed7602961bf1ea07[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Jan 12 18:16:42 2017 +0300
+
+    code coverage upd
+
+[33mcommit 1c6571c5ffc51d15299dc2f2222b9b2fc228cfd8[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Jan 12 17:00:42 2017 +0300
+
+    code coverage upd
+
+[33mcommit c38f83d9ece884fae3cfe8dffbba680766844cc8[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Jan 12 14:39:01 2017 +0300
+
+    test PR with CI (#38)
+    
+    * bomberman frontend
+    
+    * bomberman frontend with socket connection
+    
+    * bomberman backend: initial logging, some model classes, net
+    
+    * bomberman backend: initial logging, some model classes, net
+    
+    * code coverage
+
+[33mcommit d633b45fcccf709c29232b4e0216e5296753c4d0[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Jan 12 14:36:10 2017 +0400
+
+    Update .travis.yml
+
+[33mcommit 6c74b7e4d538f9083ecb8334054cd8a22afa4f79[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Jan 12 14:23:04 2017 +0400
+
+    Update build.gradle
+
+[33mcommit 315fe56da7cdbacfdc73f03a4665fc37954d522d[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Jan 12 13:56:11 2017 +0400
+
+    Update build.gradle
+
+[33mcommit ac28084aa52dcecf07b8e67413554c58a2711cf6[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Jan 12 13:22:01 2017 +0400
+
+    Update build.gradle
+
+[33mcommit 5c6637cf7785b662c8e8e5b27edadeaef6d2bdf2[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Jan 12 13:20:04 2017 +0400
+
+    + code coverage
+
+[33mcommit 6b3b9006b64d721ff8fa4dfcc9f98d60afb1cafb[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Jan 12 13:18:54 2017 +0400
+
+    Update .travis.yml
+
+[33mcommit 8e72193f7f4104785f85825bc7773cc70be1613b[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Thu Jan 12 13:11:09 2017 +0400
+
+    coverage setup
+
+[33mcommit 4d5ef3fc9a656d4146a64cf2e9f37613176d6cb7[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Mon Jan 9 18:51:23 2017 +0400
+
+    missing
+
+[33mcommit 15d56fbd6d63c3c11d75126005d384f382637413[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Jan 4 00:56:26 2017 +0300
+
+    gradle settings
+
+[33mcommit 9f8d4987c54c93811f9ef89e398e02e83cc3e241[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Jan 4 00:43:01 2017 +0300
+
+    lecture02 -> gradle
+
+[33mcommit 84290de7231d4eab0891fdc4ebd2b8b0532acb41[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Tue Jan 3 03:06:03 2017 +0300
+
+    gradle initial
+
+[33mcommit 3ab4d9b468e0283fdc8ced0bdd3c0045488555f6[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Mon Jan 2 19:37:26 2017 +0400
+
+    build status
+
+[33mcommit 51ff2ba470cc7fc4197c22d8c005f36c3cc70bb9[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Mon Jan 2 19:34:21 2017 +0400
+
+    upd
+
+[33mcommit 9a37d5061d0820ab10609caa6607824a4d9bb83e[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Mon Jan 2 19:30:48 2017 +0400
+
+    + travis CI
+
+[33mcommit c560358df7fe2f05fcc1f3ea481afb7e417aa03a[m
+Merge: e34fe92 426c36f
+Author: Alexander <Alpieex@gmail.com>
+Date:   Thu Dec 15 14:28:51 2016 +0300
+
+    Merge pull request #23 from treplen/clientMenuFeatures
+    
+    Client menu dialog improved
+
+[33mcommit e34fe9295c9900952046a4a3c4521f4924095603[m
+Merge: a790c1b 16a64e5
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Dec 9 03:00:11 2016 +0300
+
+    Merge pull request #25 from lockyStar/master
+    
+    Bug with division by zero fixed
+
+[33mcommit a790c1bb998b05c1235ade24504991a785615955[m
+Merge: e7ac38e b12a2b5
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Dec 9 02:59:29 2016 +0300
+
+    Merge pull request #22 from treplen/issue19_fix
+    
+    Bug with an infinite loop in game thread that could happen when rendering fixed
+
+[33mcommit e7ac38ec2126fd779074622e1a025c8c417b4959[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Fri Dec 9 02:50:11 2016 +0300
+
+    final-project
+
+[33mcommit 52237ac4790aa428380b6f463c36a53fb935fb3c[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Dec 6 13:40:02 2016 +0300
+
+    presentation fixes
+
+[33mcommit df5f37ac53e89707df3327c996528a7960f0c264[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Dec 6 12:56:25 2016 +0300
+
+    lecture 10 presentations
+
+[33mcommit a550c61cc0ab110644b7a71830f11bcc5f31e462[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Dec 6 12:54:12 2016 +0300
+
+    lecture 10 code
+
+[33mcommit eed53e6072d48b701f59de8cfd1a329a65ed0879[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Dec 6 12:56:25 2016 +0300
+
+    lecture 10 presentations
+
+[33mcommit ff17cf1dd379741f73aee3f371742b5cb6512c72[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Dec 6 12:54:12 2016 +0300
+
+    lecture 10 code
+
+[33mcommit 16a64e55671f97fb22b0a3181b5e0c2b85c43f59[m
+Author: lockyStar <Zhabrevalexander@yandex.ru>
+Date:   Sun Dec 4 14:46:10 2016 +0300
+
+    Bug with division by zero fixed
+
+[33mcommit b12a2b584f066662344e67f95ae6fa5737541fdd[m
+Author: Dmitriev_Svuatoslav <emerld@mail.ru>
+Date:   Wed Nov 30 13:52:55 2016 +0300
+
+    Improved to draw grid properly when close to field borders
+
+[33mcommit 426c36f92630f2328a1fc638133f9646d1bc2f82[m
+Author: Dmitriev_Svuatoslav <emerld@mail.ru>
+Date:   Wed Nov 30 13:27:51 2016 +0300
+
+    Client menu dialog improved
+
+[33mcommit a14c2c82a0619b334b965662f341061cdaf0958e[m
+Author: Dmitriev_Svuatoslav <emerld@mail.ru>
+Date:   Wed Nov 30 12:55:50 2016 +0300
+
+    Bug with an infinite loop in game thread that could happen when rendering fixed
+
+[33mcommit ce246505df94b799818d2c9012761705cc65d52b[m
+Author: Eugene Kashirin <kashirin.e@list.ru>
+Date:   Sun Nov 27 19:40:31 2016 +0300
+
+    Add debug logging to ReplicateMsg, minor code style refactor
+
+[33mcommit 435595dc2939a40c1218dd88461f610b41ae11b5[m
+Author: Eugene Kashirin <kashirin.e@list.ru>
+Date:   Sun Nov 27 19:39:30 2016 +0300
+
+    Fix AccountServer & ClientConnectionsServer exception handling
+
+[33mcommit 3cb54647952d38a2497599c40ed7fa2f6ef15f43[m
+Author: eugene <kashirin.e@list.ru>
+Date:   Sat Nov 26 23:41:22 2016 +0300
+
+    Add blocking methods to MessageSystem
+
+[33mcommit 7ee7d8fc9398a333d8eecc3b257267b7264918ab[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sun Nov 27 22:39:10 2016 +0300
+
+    remove inner protocol repo
+
+[33mcommit 9ddded5661f57b2c327e203c8cefed3985c78fb7[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sun Nov 27 22:20:04 2016 +0300
+
+    proper remoal of disconnected client
+
+[33mcommit 282026fa45e7482a9e8b880d37c4af5e80cd636d[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sun Nov 27 22:19:10 2016 +0300
+
+    GameThread now starts in new thread, many monor fixes
+
+[33mcommit 80955ca39d80b1d26236d00362881bfded932a36[m
+Merge: e13d523 43da6ae
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sun Nov 27 20:30:36 2016 +0300
+
+    Merge branch 'master' of https://github.com/rybalkinsd/atom
+
+[33mcommit e13d52300832032e1f1b57a993badcb27bc033af[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sun Nov 27 20:30:23 2016 +0300
+
+    remove internal client
+
+[33mcommit 43da6ae4d91e9c8f3573bcebaf3b605d81371fa7[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Nov 25 14:48:30 2016 +0400
+
+    Update readme.md
+
+[33mcommit 1cbe33f625ae41d782dd8ad9f21af4a5677de930[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Nov 25 14:48:07 2016 +0400
+
+    Update readme.md
+
+[33mcommit fef53ab31c837e4a23c42ab15273d4cdde062f3a[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Nov 25 14:46:44 2016 +0400
+
+    Update readme.md
+
+[33mcommit 27f5e3ce0f8962cab70b00febec8c044123b224f[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Fri Nov 25 14:45:29 2016 +0400
+
+    Update readme.md
+
+[33mcommit ad57e0971105f10d60a7c42b308b685f341c9fa5[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Thu Nov 24 09:52:24 2016 +0300
+
+    Update readme.md
+
+[33mcommit a62e0225d64d41e2cdebc296e1f3cacfd1134e6e[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Thu Nov 24 04:29:32 2016 +0300
+
+    минор
+
+[33mcommit 2cb444fc90239a7a6b68c5f61cd6e4094c57d7ed[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Thu Nov 24 04:27:24 2016 +0300
+
+    minor fix
+
+[33mcommit 02f25d3b006f93b30f8277dc1e036515c49cb288[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Thu Nov 24 04:23:12 2016 +0300
+
+    Update readme.md
+
+[33mcommit df4fa84b7795e0f4d5ea0e8fa028b008d8f497d7[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Thu Nov 24 04:22:34 2016 +0300
+
+    Task 3
+
+[33mcommit 841ac8a5c1b5aaf79cca108a40ba73d18f98996c[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Nov 24 03:03:09 2016 +0300
+
+    services.png for class
+
+[33mcommit 82daa1d8659afc543b200f8927daf937aaeef920[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Thu Nov 24 02:47:15 2016 +0300
+
+    HW3 draft
+
+[33mcommit 6629e60af2aefb92dbde200c7891d762ddbe0992[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 22 17:03:34 2016 +0300
+
+    better reordering example (still bad)
+
+[33mcommit 71257809e551b56058f3b7d4a5243b2f7d626d9b[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 22 16:00:46 2016 +0300
+
+    memes
+
+[33mcommit 50390ca54f6af2466031a99370110b59fe0fd88a[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 22 15:29:05 2016 +0300
+
+    publication example and BlockingQueue interface
+
+[33mcommit 08fa63d78aa9644da9fc89eaf46efae60b401087[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 22 14:53:42 2016 +0300
+
+    better volatile example
+
+[33mcommit 1dc6ebaf90541b248979422262728462f5f9515c[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 22 14:45:48 2016 +0300
+
+    jstack slide added, minor fix
+
+[33mcommit 8e5d51816f9e7a43084f3bbfcefd820d8a71c57c[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 22 12:39:00 2016 +0300
+
+    lecture9 presentations and visualizer
+
+[33mcommit e73c0b80d4d27d877c06afa4ed965870c6131627[m
+Merge: a979c6c 2b33712
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 22 05:32:20 2016 +0300
+
+    Merge branch 'master' of https://github.com/rybalkinsd/atom
+
+[33mcommit a979c6cccb85aad4fe1e0ab1966b1d1097150c4f[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 22 05:31:59 2016 +0300
+
+    lecture9 examples
+
+[33mcommit 2b337129ab1009afad83f988aff7f891b746e8fd[m
+Author: Al-p-i <alpieex@gmail.com>
+Date:   Tue Nov 15 17:24:34 2016 +0300
+
+    pom.xml fix
+
+[33mcommit 01e5f532439763ee640effa0f219ae5fbaaff08c[m
+Author: Al-p-i <alpieex@gmail.com>
+Date:   Tue Nov 15 17:21:56 2016 +0300
+
+    minir fix
+
+[33mcommit d975e315808ed44161417ca6b6c88a99d2c263a5[m
+Author: Al-p-i <alpieex@gmail.com>
+Date:   Tue Nov 15 12:28:14 2016 +0300
+
+    message system
+
+[33mcommit 419fda157a2eb5d1fb220592ed32e091aa531242[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 15 11:57:59 2016 +0300
+
+    minor fix
+
+[33mcommit 6c849014a4d677cc0eaab13c9b5e83fce74eaf36[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 15 11:57:08 2016 +0300
+
+    presentations for lecture 8
+
+[33mcommit 3850a2490f3744acc2d3464b5b2dbe859e550239[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 15 05:24:57 2016 +0300
+
+    lecture 8 examples
+
+[33mcommit 5d0721eaf9be6e0fbba493db300e7f279adc4ac6[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Sun Nov 13 23:06:14 2016 +0300
+
+    lecture8 code examples
+
+[33mcommit 00edc316ba3ef3cda3366177683d3b661d716b7a[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Wed Nov 2 14:49:53 2016 +0300
+
+    formatting
+
+[33mcommit ca9a18a1b823088a341747946eb66cd5f48c0421[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Wed Nov 2 14:29:18 2016 +0300
+
+    minor md fix
+
+[33mcommit d62c3c03dd996f0ceff6c9ea3e9a02ef4f0fd612[m
+Merge: 080a246 0c8a590
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Wed Nov 2 14:27:19 2016 +0300
+
+    merge rk2
+
+[33mcommit 0c8a5906be5da2e9ad0975c801d6aa945b1612fb[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Wed Nov 2 14:25:55 2016 +0300
+
+    rk2 text
+
+[33mcommit 4c7dff8ac47ebedfa6cee08ec3f8c3ffb375933d[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Nov 1 21:20:14 2016 +0300
+
+    markdown fork second rk task:
+
+[33mcommit 080a24689affbb917bb1bb7313285ea33c5dab0e[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 17:44:50 2016 +0300
+
+    repliction off
+
+[33mcommit 21388eaa09ad6a8118cc86291be4a920ac808da3[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 16:05:28 2016 +0300
+
+    presentations
+
+[33mcommit 573e6a4fff18c50a606831aeafc5451273161eab[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 16:02:10 2016 +0300
+
+    zagar-server
+
+[33mcommit 19e9e9d446733f9859dec30338963f86e8ba277a[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 15:35:36 2016 +0300
+
+    fix submodele dependency
+
+[33mcommit 644f88dca8b0d738899f023baa629ade5f5f16dd[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 15:25:29 2016 +0300
+
+    naming
+
+[33mcommit 59b33a167c385164f0c668a8cb918f2f1b6b2b6f[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 15:15:20 2016 +0300
+
+    naming
+
+[33mcommit 261ca94ad6ff447bcbf86cb5e7887323f3f3e42e[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 15:07:14 2016 +0300
+
+    naming
+
+[33mcommit 4cc198c3ddb092d4ede1a176121f9d6ac07ee217[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 14:48:27 2016 +0300
+
+    client-server protocol
+
+[33mcommit ffa2c3c9d5006884b0a79159c8879b12b337fdda[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 14:46:10 2016 +0300
+
+    agar client
+
+[33mcommit 754bef3d296fd0ef4741303028f85f035b40e048[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Nov 1 14:42:05 2016 +0300
+
+    websocket example
+
+[33mcommit 5e516846e556ae715662489e8c0e0cf9c3dcc578[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Oct 21 16:27:54 2016 +0300
+
+    credentials
+
+[33mcommit faafe849252091fcf303ed4c355a125a5fd04d0b[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Oct 21 16:26:16 2016 +0300
+
+    presentation upd
+
+[33mcommit b68c7e08ca57d2589f7e50d6f2e3f2a60b4b2000[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Oct 21 16:23:34 2016 +0300
+
+    tests fix
+
+[33mcommit 18eecb910b91785b76ad63879ef427a005d919d8[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Oct 21 14:02:49 2016 +0300
+
+    lecture6 presentation
+
+[33mcommit aa7922a25f2f3ca0cfeacc2b454344c225e1c98c[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Thu Oct 20 19:09:22 2016 +0300
+
+    Hibernate dao for Like and Person
+
+[33mcommit 731fdb270b9ef0693b95f3450acb267067beda81[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Thu Oct 20 16:14:51 2016 +0300
+
+    hibernate dao
+
+[33mcommit 684ea312ba12e3d17c349f859adbaffd8147292f[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Thu Oct 20 12:36:41 2016 +0300
+
+    lecture 6 src
+
+[33mcommit e0cf61eb3ec893a91ba28def4d9616a960348430[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Oct 18 19:41:39 2016 +0300
+
+    Like servlet
+
+[33mcommit 119c83cf6d1b24166e0d8f6cde9bde52d7a486ca[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Oct 18 17:11:04 2016 +0300
+
+    fix typo in persons_init.sql
+
+[33mcommit b34043b2e7c8f938597abe2fd26ebb51559103d6[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 18 15:43:12 2016 +0300
+
+    lecture files
+
+[33mcommit 8696730062a76775d966d066c11288061aecb443[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 18 15:16:25 2016 +0300
+
+     credentials
+
+[33mcommit 91052a533f1715321ae1a1c13bd96bf1bbe84023[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 18 13:59:53 2016 +0300
+
+    minor fixes
+
+[33mcommit 4df437affa842038390f475fa54295ad06452eea[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 18 13:31:58 2016 +0300
+
+    final modifications
+
+[33mcommit 4ff632a68dd20aa3765e95d69259a5ebfa980775[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 18 12:28:35 2016 +0300
+
+    lecture 5 cnt
+
+[33mcommit 4a9711c780d182d7b5f188b322f3e4e21c4777b3[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 18 10:25:26 2016 +0300
+
+    presentation + tests
+
+[33mcommit dfb54d3efb9dfb82c8ba845c6105374111c41ded[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 18 00:07:21 2016 +0300
+
+    improved dao and matcher
+
+[33mcommit 6788b805315061f1fa3008f5ac43ec734b52d653[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Oct 17 23:40:10 2016 +0300
+
+    beta
+
+[33mcommit 86604437af9ea604a674ec5c5fa83ed46847c3a8[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Oct 17 22:37:38 2016 +0300
+
+    Matcher
+
+[33mcommit b990b41c14ca820dc61bfacd081dfc7095e20453[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Oct 17 21:52:25 2016 +0300
+
+    DAO
+
+[33mcommit 2f4963e051f9f6a66314d1db0acb3a1196928f34[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Oct 17 19:39:31 2016 +0300
+
+    lecture 5 initial src
+
+[33mcommit 0784d2452881b792e64dfcce9c42b82dadeddaba[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 23:00:47 2016 +0300
+
+    profile/name request upd
+
+[33mcommit 1edc5163427410484572fe2265eb8e408d9d6fcf[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 15:07:49 2016 +0300
+
+    typos
+
+[33mcommit b0fe9ce49cb1fafd08ab968d2b7a69767249f31f[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 13:54:58 2016 +0300
+
+    minor clarification
+
+[33mcommit f2aac167ca5cf9dde6a66bb84ba07b28bc128e49[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 12:33:19 2016 +0300
+
+    typos
+
+[33mcommit b32105b93210712e0a0a2f5be8ebc25f597cca18[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 12:32:05 2016 +0300
+
+    ref to homework #1
+
+[33mcommit 0d2fe91555ed21a082faf92abbe47c6cb2b3cd2b[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 12:27:58 2016 +0300
+
+    minor upd
+
+[33mcommit 8c3534500cde59a72f0e521489590cab713f13e9[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 12:15:37 2016 +0300
+
+    Terminology clerification
+
+[33mcommit 7bd70dc8c96b4ed96bbc4fb6cd0b7a23aac81e4f[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 12:07:13 2016 +0300
+
+    minor upd
+
+[33mcommit 42dc91f03ae9e4bb461eb43bf37b0cbebaf94f91[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 12:05:06 2016 +0300
+
+    typos
+
+[33mcommit a6af22ed82e720875ff04f3e1de0ce76664f6f17[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 11:58:27 2016 +0300
+
+    API spec
+
+[33mcommit ac8e255a76a516cef63e5018cfe28314951fbfae[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Thu Oct 13 11:10:49 2016 +0300
+
+    prettify x2
+
+[33mcommit ffeb6ae8c7c301f86da6a728dc8b8523e1b71605[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Thu Oct 13 02:21:42 2016 +0300
+
+    Update readme.md
+
+[33mcommit 583cf8f3eef3b85c79f71ebe41b9adff26bd9d06[m
+Author: Alexander <Alpieex@gmail.com>
+Date:   Thu Oct 13 02:18:03 2016 +0300
+
+    Update readme.md
+
+[33mcommit d549d1a3ccb3395db3a1f166289a19d36588e51a[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Oct 12 17:16:28 2016 +0300
+
+    minor upd
+
+[33mcommit d009b7190b28279ad017ac5af9d44a633d66a322[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Wed Oct 12 13:28:00 2016 +0300
+
+    thread-pre-request pic
+
+[33mcommit 50469e3b23afbe666c43b7c238a0ae56326fb706[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Oct 12 13:24:01 2016 +0300
+
+    prettify
+
+[33mcommit 828ee60a17a4fe3af8e038a454924a77ff6c7149[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Oct 12 13:21:26 2016 +0300
+
+    jetty short desctiption
+
+[33mcommit dba9b2b229fd95cfe8f786a09b443316ecfcb0b1[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Oct 12 10:46:52 2016 +0300
+
+    in-memory accoun server task skeleton
+
+[33mcommit 0bee9f258f19ede9e4abaf1910dcc26325c84a17[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Oct 11 18:59:55 2016 +0300
+
+    auth schema upd
+
+[33mcommit d6e0f3a83506938c463262cc30c4fd8fbaeaa560[m
+Author: Al-p-i <alpieex@gmail.com>
+Date:   Tue Oct 11 17:02:05 2016 +0300
+
+    lecture 4 materials
+
+[33mcommit 2cb645ae9b88552170ae55dfdb6cccc06051a54d[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 11 17:05:57 2016 +0300
+
+    minor refactoring
+
+[33mcommit e44558f4eaf4ddb8e42b574308b16aa761c289c0[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Tue Oct 11 16:57:45 2016 +0300
+
+    Auth desctiption
+
+[33mcommit 444cbb241bbe669cccdefa1964f1f39bbb7183ca[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 11 15:24:43 2016 +0300
+
+    Authentication server homevork initial
+
+[33mcommit 2bcee77d7ada3de3e80635e6849a2dd131f616fc[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 11 15:19:30 2016 +0300
+
+    some fuck ups, tnx st
+
+[33mcommit 097991d7a060ce7d13d012a232bec6301613db49[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Sat Oct 8 01:15:25 2016 +0300
+
+    Update readme.md 4
+
+[33mcommit db153b437aebe3af314e4369595a74519c6f8683[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Fri Oct 7 21:24:20 2016 +0300
+
+    updated README.md 4
+
+[33mcommit 449be3d4fec924f29ee9effc155f70a91582a745[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Fri Oct 7 21:16:11 2016 +0300
+
+    updated README.md 3
+
+[33mcommit 90d741c66028dc3d81bc261354a703245f83de11[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Fri Oct 7 21:13:35 2016 +0300
+
+    updated README.md 2
+
+[33mcommit f6af6888636fec6a6c6311eb2a9389e77775c0cf[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Fri Oct 7 21:12:08 2016 +0300
+
+    Update readme.md
+
+[33mcommit 055f7e9249068491f53c63db4d5b9804c349d014[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Oct 7 20:47:13 2016 +0300
+
+    javadocs
+
+[33mcommit 58a6a472f36cf9bc705c60e922454a0c79ba4990[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Fri Oct 7 20:20:15 2016 +0300
+
+    Create readme.md
+    
+    lecture 3 practicle part explanation
+
+[33mcommit d6fb4b943816f64d592906604f49121bab297e03[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Oct 7 18:57:44 2016 +0300
+
+    lecture 2 practicum rethink
+
+[33mcommit 172b4519560f76897476c0863a6632e85243bc19[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Oct 7 13:13:57 2016 +0300
+
+    reduce server overhead@
+
+[33mcommit 0e88b49b82a248e12b754ee7283e31d6f7b208c5[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Thu Oct 6 18:52:23 2016 +0300
+
+    minor fixes
+
+[33mcommit 0130a4715f36ff6e1810ae94d2266ee919b46331[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Thu Oct 6 17:15:04 2016 +0300
+
+    Revert "Hello, Ladies"
+    
+    This reverts commit 73258a33c0bfa861afd14bc9371126161ee3b69b.
+
+[33mcommit 1a773a87958bd403d79b700dd2df1404e103c078[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Wed Oct 5 09:43:23 2016 +0300
+
+    lecture 3 tasks implementation
+
+[33mcommit 9136789eb7caa1dc70284c2cc3857d08f66aa352[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Oct 4 18:15:53 2016 +0300
+
+    minor gender fix
+
+[33mcommit 8289b9122f439c05d7e8dfd456b3a662ef663b52[m
+Merge: 73258a3 14d4502
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Tue Oct 4 18:11:04 2016 +0300
+
+    Merge pull request #1 from Al-p-i/master
+    
+    First homework PR from @Al-p-i
+
+[33mcommit 73258a33c0bfa861afd14bc9371126161ee3b69b[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 4 16:27:09 2016 +0300
+
+    Hello, Ladies
+
+[33mcommit 5f0f0765aacc83e7596bfc6c560cf81dfa71aa28[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 4 16:13:16 2016 +0300
+
+    data + http client
+
+[33mcommit 61bdf24a3f4c46a102b96fc588b55ee6ddd9b971[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 4 14:42:29 2016 +0300
+
+    typos
+
+[33mcommit 67c948ddfab7c698821646d22e8993e933fe5dc6[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 4 13:50:47 2016 +0300
+
+    lecture3 presentation done
+
+[33mcommit 795eb29b370bee9b0d1457fc85336ef6628ccec3[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Oct 4 12:54:29 2016 +0300
+
+    presentation upd
+
+[33mcommit 14d45022a37316c4540d68d5b47f507025d53ef1[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Oct 4 12:33:04 2016 +0300
+
+    removed iml from commit
+
+[33mcommit f15b7bac78a8fcb5ac9ac91e98584bfdb61c7e89[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Tue Oct 4 12:29:00 2016 +0300
+
+    minor fixes
+
+[33mcommit 01be33c55b5980601f118a666e11c4c99e7f543e[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Oct 4 10:25:50 2016 +0300
+
+    presentation upd
+
+[33mcommit c611c5b5e0297a1e1c2643fdf1149254dce30a1a[m
+Author: Al-p-i <alpieex@gmail.com>
+Date:   Mon Oct 3 22:21:29 2016 +0300
+
+    added gitignore, removed .idea files
+
+[33mcommit 52c5a68f78347a2d5481365c3b5807c0243e1b8c[m
+Author: Al-p-i <alpieex@gmail.com>
+Date:   Mon Oct 3 22:15:41 2016 +0300
+
+    gameserver initial commit for HomeWork 1
+
+[33mcommit 7d9e76234f088e6fc198e448945542dcbd48ffc5[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Oct 3 18:58:21 2016 +0300
+
+    modularization & simple rest dummy client
+
+[33mcommit dc839ac2782ec6245e09490ad86d5d4a62cbbc1c[m
+Author: Alpi <Alpieex@gmail.com>
+Date:   Mon Oct 3 13:53:35 2016 +0300
+
+    HW1
+
+[33mcommit 036b0f356474dee435c24c91490b696045e0fa47[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Oct 3 13:52:06 2016 +0300
+
+    In-memmory authentication service
+
+[33mcommit c408f9262eb58cba4dcba5c466443f0ca86545e4[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Sep 30 17:52:50 2016 +0300
+
+    lecture 3 template
+
+[33mcommit 4bdf4eea11b30833e3b4485c69eb3d4dd312b280[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Fri Sep 30 12:09:56 2016 +0300
+
+    junit dependency
+
+[33mcommit 6316c1ef3419569acbbb2b44d3c8857a9530b26a[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Thu Sep 29 21:34:31 2016 +0300
+
+    basic working auth
+
+[33mcommit 9ab21c2c22d5c53b1a80fc835a274f7e36d7bd85[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Thu Sep 29 20:38:59 2016 +0300
+
+    initial REST auth service
+
+[33mcommit e1a9056fce7ea3181f1225dffa6677cdd81378b5[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Sep 27 16:31:35 2016 +0300
+
+    practice changes
+
+[33mcommit 1109d0bb4f4e591f6a735b23002fb94322b570cc[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Sep 27 16:26:32 2016 +0300
+
+    presentation
+
+[33mcommit 7854ca30bc7305c3930e5ec9d68a3ae212bdd878[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Tue Sep 27 14:33:50 2016 +0300
+
+    lecture2 presentation
+
+[33mcommit f137dd7c736023cf6bcdfb75b42a07e11db5d416[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Sep 27 13:30:56 2016 +0300
+
+    json data transfer
+
+[33mcommit 03723877822191558f3057873692513b1a9fcdb1[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Sep 27 12:52:28 2016 +0300
+
+    edited View
+
+[33mcommit f452170a5254ce8ac892833a2cb8e248b677604e[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Sep 27 11:02:16 2016 +0300
+
+    lecture samples with tests
+
+[33mcommit 0f392f3e3978dfb4385853651848e229c64d5f8a[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Sep 26 18:25:02 2016 +0300
+
+    open page if default browser
+
+[33mcommit 9d6b2bd4996e0f25c56aafecad6685518cfea228[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Sep 26 18:17:52 2016 +0300
+
+    second part of data
+
+[33mcommit ed38150aaaacf8cb9bbf21c48f69f74fd1ae6dfc[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Mon Sep 26 10:39:35 2016 +0300
+
+    Update .gitignore
+
+[33mcommit 7b9662b56897bed0002342cf81e11f7ecb0248e1[m
+Author: Sergey Rybalkin <yan.brikl@gmail.com>
+Date:   Mon Sep 26 10:33:45 2016 +0300
+
+    first part of lecture2 src
+
+[33mcommit 2b9aea83c29e50b6637a02a1a691ac13be6b0d43[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Wed Sep 21 10:33:09 2016 +0300
+
+    Update README.md
+
+[33mcommit 111de9e550e1ed4ea7bcecfc3e1374c873840701[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Sep 20 16:41:42 2016 +0300
+
+    setup slides
+
+[33mcommit 717fbafb9a1f26f08bf35acc99d245c8f1bec131[m
+Author: rybalkinsd <yan.brikl@gmail.com>
+Date:   Tue Sep 20 15:58:06 2016 +0300
+
+    Create .gitignore
+
+[33mcommit 9610f5a5ca876897a60426c7bfe20bbde96ab492[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Sep 20 12:41:19 2016 +0300
+
+    Presentation style normalization
+
+[33mcommit f65e64153c6a1a0c89f4bf066999b441b2acb693[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Tue Sep 20 11:38:08 2016 +0300
+
+    JDK  structure remastered
+
+[33mcommit d4e444fee51d5be29e2c1c06c111eb8f45f8ad07[m
+Author: Rybalkin Sergey <yan.brikl@gmail.com>
+Date:   Mon Sep 19 23:33:15 2016 +0300
+
+    + README.md
+
+[33mcommit 636c9c08c15e563073779cd9b24d0e163cd57cca[m
+Author: Rybalkin Sergey <s.rybalkin@mail.msk>
+Date:   Mon Sep 19 23:27:26 2016 +0300
+
+    First lecture presentation
