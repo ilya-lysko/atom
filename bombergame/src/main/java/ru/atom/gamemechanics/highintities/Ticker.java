@@ -3,6 +3,7 @@ package ru.atom.gamemechanics.highintities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
@@ -18,23 +19,23 @@ public class Ticker {
         this.gameSession = gameSession;
     }
 
-    public void loop() {
+    public void loop() throws IOException {
         while (!Thread.currentThread().isInterrupted()) {
             long started = System.currentTimeMillis();
             act(FRAME_TIME);
             long elapsed = System.currentTimeMillis() - started;
             if (elapsed < FRAME_TIME) {
-                log.info("All tick finish at {} ms", elapsed);
+                //log.info("All tick finish at {} ms", elapsed);
                 LockSupport.parkNanos(TimeUnit.MILLISECONDS.toNanos(FRAME_TIME - elapsed));
             } else {
-                log.warn("tick lag {} ms", elapsed - FRAME_TIME);
+                //log.warn("tick lag {} ms", elapsed - FRAME_TIME);
             }
-            log.info("{}: tick ", tickNumber);
+            //log.info("{}: tick ", tickNumber);
             tickNumber++;
         }
     }
 
-    private void act(long time) {
+    private void act(long time) throws IOException {
         synchronized (lock) {
             this.gameSession.tick(time);
         }

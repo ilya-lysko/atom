@@ -16,12 +16,6 @@ public class Message {
         this.data = data;
     }
 
-    @JsonCreator
-    public Message(@JsonProperty("topic") Topic topic, @JsonProperty("data") JsonNode data) {
-        this.topic = topic;
-        this.data = data.toString();
-    }
-
     public Topic getTopic() {
         return topic;
     }

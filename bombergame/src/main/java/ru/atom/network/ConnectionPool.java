@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.jetty.websocket.api.Session;
 import org.jetbrains.annotations.NotNull;
+import ru.atom.gamemechanics.highintities.GameSession;
 
 import java.io.IOException;
 import java.util.Map;
@@ -48,7 +49,7 @@ public class ConnectionPool {
         });
     }
 
-    public String getPlayer(Session session) {
+    public String getPlayer(Session session)  {
         return pool.get(session);
     }
 
@@ -62,6 +63,7 @@ public class ConnectionPool {
 
     public void add(Session session, String player) {
         if (pool.putIfAbsent(session, player) == null) {
+            pool.put(session, player);
             log.info("{} joined", player);
         }
     }

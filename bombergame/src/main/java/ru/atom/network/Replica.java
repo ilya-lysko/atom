@@ -9,12 +9,12 @@ import ru.atom.util.JsonHelper;
 /**
  * Created by kinetik on 02.05.17.
  */
-public class Replika {
+public class Replica {
     private String type;
     private int id;
     private String position;
 
-    public Replika(Positionable obj) {
+    public Replica(Positionable obj) {
         this.type = obj.getClass().getSimpleName();
         this.id = obj.getId();
         this.position = JsonHelper.toJson(new Position(obj.getPosition().getxCoord(), obj.getPosition().getyCoord()));

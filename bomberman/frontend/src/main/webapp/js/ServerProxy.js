@@ -1,6 +1,6 @@
 ServerProxy = Class.extend({
 
-    host: "localhost:8090",
+    host: "localhost:8082",
 
     socket: null,
 
@@ -49,6 +49,7 @@ ServerProxy = Class.extend({
 
         this.socket.onmessage = function(event) {
             var msg = JSON.parse(event.data);
+            //var msg = event.data;
             if (self.handler[msg.topic] === undefined)
                 return;
 

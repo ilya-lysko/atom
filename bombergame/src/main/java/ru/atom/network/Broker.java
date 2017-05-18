@@ -1,11 +1,16 @@
 package ru.atom.network;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.jetty.websocket.api.Session;
 import org.jetbrains.annotations.NotNull;
 import ru.atom.gamemechanics.entities.Action;
+import ru.atom.matchmaker.MatchMaker;
 import ru.atom.util.JsonHelper;
+
+import java.io.IOException;
 
 import static ru.atom.gamemechanics.highintities.GameSession.playersActions;
 
@@ -29,19 +34,17 @@ public class Broker {
     public void receive(Session session, @NotNull String msg) {
         log.info("RECEIVED: " + msg);
         Message message = JsonHelper.fromJson(msg, Message.class);
-        if (message.getTopic().equals(Topic.PLANT_BOMB)) {
-            log.info("Message type: " + Topic.PLANT_BOMB.toString());
-            playersActions.add(new Action(Action.Type.PLANT, ConnectionPool.getInstance().getPlayer(session )));
-        } else if (message.getTopic().equals(Topic.MOVE)) {
+        Topic topic = message.getTopic();
+        if (topic.equals(Topic.MOVE)) {
             try {
                 DirectionMessage directionMessage = JsonHelper.fromJson(message.getData(), DirectionMessage.class);
-                log.info("Message type: " + Topic.MOVE.toString() + " with direction: " +
-                        directionMessage.getDirection().toString());
                 Action action = new Action(Action.Type.MOVE, ConnectionPool.getInstance().getPlayer(session));
                 action.setDirection(directionMessage.getDirection());
             } catch (EnumConstantNotPresentException ex) {
                 log.error("Bad direction");
             }
+        } else if (topic.equals(Topic.PLANT_BOMB)) {
+            playersActions.add(new Action(Action.Type.PLANT, ConnectionPool.getInstance().getPlayer(session )));
         } else {
             log.error("Bad data");
         }
@@ -53,8 +56,8 @@ public class Broker {
         connectionPool.send(session, message);
     }
 
-    public void broadcast(@NotNull Topic topic, @NotNull Object object) {
-        String message = JsonHelper.toJson(new Message(topic, JsonHelper.toJson(object)));
+    public void broadcast(@NotNull Topic topic, @NotNull Object object) throws IOException {
+        String message = JsonHelper.toJson(new Message(topic, object.toString()));
         connectionPool.broadcast(message);
     }
 }

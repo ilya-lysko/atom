@@ -9,9 +9,10 @@ import ru.atom.gamemechanics.gameinterfaces.Tickable;
 import ru.atom.gamemechanics.entities.*;
 import ru.atom.gamemechanics.geometry.Point;
 import ru.atom.network.Broker;
-import ru.atom.network.Replika;
+import ru.atom.network.Replica;
 import ru.atom.network.Topic;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -31,10 +32,13 @@ public class GameSession implements Tickable {
     private static ConcurrentHashMap<String, Integer> playersOnline = new ConcurrentHashMap<>();
     public static ConcurrentLinkedQueue<Action> playersActions = new ConcurrentLinkedQueue<>();
 
+    private static AtomicInteger gameObjectIdGenerator = new AtomicInteger(1);
     private AtomicInteger gameObjectId;
     private Ticker ticker;
     private long id;
     private Positionable[][] gameField = new Positionable[17][13];
+    private static final Object lock = new Object();
+    private int playerCount = 0;
 
     public static int PLAYERS_IN_GAME = 1;
 
@@ -45,8 +49,16 @@ public class GameSession implements Tickable {
         pawnStarts.add(new Point(15, 11));
     }
 
-    public GameSession(int gameObjectId) {
+    public GameSession() {
+        setGameObjectId(gameObjectIdGenerator.getAndIncrement());
+    }
+
+    private void setGameObjectId(int gameObjectId) {
         this.gameObjectId = new AtomicInteger(gameObjectId);
+    }
+
+    public int getGameObjectId() {
+        return gameObjectId.intValue();
     }
 
     public void newConnection(List<String> players) {
@@ -58,10 +70,6 @@ public class GameSession implements Tickable {
 
     public List<Positionable> getGameObjects() {
         return new ArrayList<>(gameObjects.values());
-    }
-
-    public int getGameObjectId() {
-        return gameObjectId.intValue();
     }
 
     public void addGameObject(Positionable gameObject) {
@@ -110,19 +118,32 @@ public class GameSession implements Tickable {
         }
     }
 
-    public void start() {
+    public int getPlayerCountAndIncrement() {
+        synchronized (lock) {
+            return playerCount++;
+        }
+    }
+
+    public int getPlayerCount() {
+        synchronized (lock) {
+            return playerCount;
+        }
+    }
+
+    public void start() throws IOException {
         this.fieldInit();
         for(String key: playersOnline.keySet()) {
             Broker.getInstance().send(key, Topic.POSSESS, playersOnline.get(key));
         }
+        log.info("sended POSSESes to players");
         ArrayList<String> objects = new ArrayList<>();
         for(Positionable gameObject: this.getGameObjects()) {
-            objects.add(new Replika(gameObject).getJson());
+            objects.add(new Replica(gameObject).getJson());
         }
         for(int i=0; i<17; i++) {
             for (int j = 0; j < 13; j++) {
                 if(this.gameField[i][j] != null) {
-                    objects.add(new Replika(this.gameField[i][j]).getJson());
+                    objects.add(new Replica(this.gameField[i][j]).getJson());
                 }
             }
         }
@@ -132,8 +153,8 @@ public class GameSession implements Tickable {
     }
 
     @Override
-    public void tick(long elapsed) {
-        log.info("tick");
+    public void tick(long elapsed) throws IOException {
+        //log.info("tick");
         for (Integer gameObject : gameObjects.keySet()) {
             Positionable object = gameObjects.get(gameObject);
             if (object instanceof Tickable) {
@@ -161,7 +182,7 @@ public class GameSession implements Tickable {
                 }
             }
         }
-        while(playersActions.isEmpty() == false) {
+        while(!playersActions.isEmpty()) {
                 Action action = playersActions.poll();
                 if(action.getType().equals(Action.Type.PLANT)) {
                     this.addGameObject(new Bomb(this.getGameObjectId(),
@@ -175,23 +196,15 @@ public class GameSession implements Tickable {
         }
         ArrayList<String> objects = new ArrayList<>();
         for(Positionable gameObject: this.getGameObjects()) {
-            objects.add(new Replika(gameObject).getJson());
+            objects.add(new Replica(gameObject).getJson());
         }
         for(int i=0; i<17; i++) {
             for (int j = 0; j < 13; j++) {
                 if(this.gameField[i][j] != null) {
-                    objects.add(new Replika(this.gameField[i][j]).getJson());
+                    objects.add(new Replica(this.gameField[i][j]).getJson());
                 }
             }
         }
         Broker.getInstance().broadcast(Topic.REPLICA, objects);
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 }

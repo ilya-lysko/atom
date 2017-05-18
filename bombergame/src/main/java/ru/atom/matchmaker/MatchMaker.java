@@ -10,12 +10,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import ru.atom.util.ThreadSafeQueue;
+import ru.atom.util.ThreadSafeStorage;
 
 /**
  * Created by kinetik on 12.05.17.
  */
 public class MatchMaker implements Runnable {
-    private static final Logger log = LogManager.getLogger(MatchMakerServlet.class);
+    private static final Logger log = LogManager.getLogger(MatchMaker.class);
+    private static GameSession gameSession = new GameSession();
+
+    public static GameSession getGameSession() {
+        return gameSession;
+    }
 
     @Override
     public void run() {
@@ -31,27 +37,9 @@ public class MatchMaker implements Runnable {
             }
 
             if (candidates.size() == GameSession.PLAYERS_IN_GAME) {
-                MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
-                RequestBody body = RequestBody.create(
-                        mediaType,
-                        String.format("token=%s", candidates)
-                );
-
-                String requestUrl = "localhost:8090";
-                Request request = new Request.Builder()
-                        .url(requestUrl)
-                        .post(body)
-                        .addHeader("content-type", "application/x-www-form-urlencoded")
-                        .build();
-
-                OkHttpClient client = new OkHttpClient();
-                Response response = null;
-                try {
-                    response = client.newCall(request).execute();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                log.info(response.code());
+//                gameSession.start();
+//                log.info("Game started!");
+                ThreadSafeStorage.put(gameSession);
 
                 candidates.clear();
             }

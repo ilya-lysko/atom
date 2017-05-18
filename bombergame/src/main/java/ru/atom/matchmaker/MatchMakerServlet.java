@@ -42,7 +42,7 @@ public class MatchMakerServlet {
             LoginEntity user = TokenStorage.getByToken(longToken);
             log.info("user \"" + user.getUser().getLogin() + "\" joined game");
             ThreadSafeQueue.getInstance().offer(user.getToken());
-            String gameurl = "http://localhost:8082/gs/" + ThreadSafeStorage.getCurrentGameSessionId();
+            String gameurl = "http://localhost:8082/game/" + ThreadSafeStorage.getCurrentGameSessionId();
             return Response.ok(gameurl).build();
         }
     }

@@ -13,9 +13,10 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
 public class EventServer {
+
     private static ContextHandler createGameClientContext() {
         ContextHandler context = new ContextHandler();
-        context.setContextPath("/gs/0");
+        context.setContextPath("/game/0");
         ResourceHandler handler = new ResourceHandler();
         handler.setWelcomeFiles(new String[]{"index.html"});
 
